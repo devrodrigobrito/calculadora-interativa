@@ -7,9 +7,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
 
+     <div class="calculator-container">
+        <!-- Display da calculadora -->
+        <div class="display-section">
+            <div class="display-secondary" id="displaySecondary">0</div>
+            <div class="display-primary" id="displayPrimary">0</div>
+        </div>
 
+        <!-- Botões da calculadora -->
+        <div class="buttons-grid">
+            <!-- Primeira linha: Clear, Delete, %, ÷ -->
+            <button class="btn btn-function" id="clearBtn">C</button>
+            <button class="btn btn-function" id="deleteBtn">⌫</button>
+            <button class="btn btn-operator" id="percentBtn">%</button>
+            <button class="btn btn-operator" id="divideBtn">÷</button>
+
+            <!-- Segunda linha: 7, 8, 9, × -->
+            <button class="btn btn-number" data-number="7">7</button>
+            <button class="btn btn-number" data-number="8">8</button>
+            <button class="btn btn-number" data-number="9">9</button>
+            <button class="btn btn-operator" id="multiplyBtn">×</button>
+
+            <!-- Terceira linha: 4, 5, 6, - -->
+            <button class="btn btn-number" data-number="4">4</button>
+            <button class="btn btn-number" data-number="5">5</button>
+            <button class="btn btn-number" data-number="6">6</button>
+            <button class="btn btn-operator" id="subtractBtn">-</button>
+
+            <!-- Quarta linha: 1, 2, 3, + -->
+            <button class="btn btn-number" data-number="1">1</button>
+            <button class="btn btn-number" data-number="2">2</button>
+            <button class="btn btn-number" data-number="3">3</button>
+            <button class="btn btn-operator" id="addBtn">+</button>
+
+            <!-- Quinta linha: ±, 0, ., = -->
+            <button class="btn btn-function" id="toggleSignBtn">±</button>
+            <button class="btn btn-number" data-number="0">0</button>
+            <button class="btn btn-function" id="decimalBtn">.</button>
+            <button class="btn btn-equals" id="equalsBtn">=</button>
+        </div>
+    </div>
+
+    <!-- Histórico lateral -->
+    <div class="history-container">
+        <div class="history-header">
+            <h3>Histórico</h3>
+            <button class="btn-clear-history" id="clearHistoryBtn">🗑️</button>
+        </div>
+        <div class="history-content" id="historyContent">
+            <div class="history-empty">
+                <span>Nenhum cálculo ainda</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Informações de erro/status -->
+    <div class="status-bar" id="statusBar">
+        <span class="status-text" id="statusText">Pronto para calcular</span>
+    </div>
+  
     <script src="script.js"> </script>
 </body>
 </html>
