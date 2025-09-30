@@ -11,7 +11,7 @@
      <div class="calculator-container">
         <!-- Display da calculadora -->
         <div class="display-section">
-            <div class="display-secondary" id="displaySecondary">0</div>
+            <div class="display-secondary" id="displaySecondary"></div>
             <div class="display-primary" id="displayPrimary">0</div>
         </div>
 
@@ -44,7 +44,7 @@
             <!-- Quinta linha: ±, 0, ., = -->
             <button class="btn btn-function" id="toggleSignBtn">±</button>
             <button class="btn btn-number" data-number="0">0</button>
-            <button class="btn btn-function" id="decimalBtn">.</button>
+            <button class="btn btn-function" id="decimalBtn">,</button>
             <button class="btn btn-equals" id="equalsBtn">=</button>
         </div>
     </div>
@@ -62,11 +62,6 @@
         </div>
     </div>
 
-    <!-- Informações de erro/status -->
-    <div class="status-bar" id="statusBar">
-        <span class="status-text" id="statusText">Pronto para calcular</span>
-    </div>
-  
     <script src="script.js"> </script>
 </body>
 </html>
