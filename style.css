@@ -39,6 +39,7 @@ body {
     margin-bottom: 20px;
     text-align: right;
     color: white;
+    overflow: hidden;
 }
 
 .display-secondary {
@@ -135,7 +136,7 @@ body {
     background: #ffffff;
     border-radius: 16px;
     padding: 20px;
-    width: 260px;
+    min-width: 260px;
     max-height: 460px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     display: flex;
