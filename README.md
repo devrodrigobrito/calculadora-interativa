@@ -58,7 +58,7 @@ Ou, se preferir rodar localmente em sua máquina:
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd calculadora-basica
+    cd calculadora-interativa
     ```
 
 3.  **Abra o arquivo HTML:**
