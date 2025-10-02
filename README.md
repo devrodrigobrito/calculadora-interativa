@@ -48,7 +48,7 @@ O objetivo foi criar uma aplicação funcional e intuitiva, com foco em **usabil
 ## 📖 Como Usar
 
 Você pode acessar a versão online aqui:
-[Demonstração Online](https://devrodrigobrito.github.io/calculadora-basica/)  
+[Demonstração Online](https://devrodrigobrito.github.io/calculadora-interativa/)  
 Ou, se preferir rodar localmente em sua máquina:    
 
 1.  **Clone o repositório:**
@@ -58,7 +58,7 @@ Ou, se preferir rodar localmente em sua máquina:
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd calculadora-basica
+    cd calculadora-interativa
     ```
 
 3.  **Abra o arquivo HTML:**
